@@ -192,13 +192,19 @@ app.controller('statsController', function ($scope) {
         }
     ];
 
-    $scope.seasonOneAppearances = "Tom Howourth (9) and Alex Thornton (9)";
-    $scope.seasonOneGoalscorer = "Tom Howourth (4)";
-    $scope.seasonOneRatio = "Jonny Dauncey (9)";
-    $scope.seasonOnePlayer = "Tom Mantle (4)";
-
-    $scope.seasonTwoAppearances = "";
-    $scope.seasonTwoGoalscorer = "";
-    $scope.seasonTwoRatio = "";
-    $scope.seasonTwoPlayer = "";
+    $scope.seasonAwards =
+    [
+        {
+            appearances: "Tom Howourth (9) and Alex Thornton (9)",
+            goalscorer: "Tom Howourth (4)",
+            ratio: "Jonny Dauncey (9)",
+            player: "Tom Mantle (4)"
+        },
+        {
+            appearances: "",
+            goalscorer: "",
+            ratio: "",
+            player: ""
+        }
+    ];
 });
