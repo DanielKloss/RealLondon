@@ -1,0 +1,69 @@
+<div class="panel panel-primary">
+    <div class="panel-heading">Overall Player Stats</div>
+    <table class="table">
+        <tr>
+            <td><strong>Player</strong></td>
+            <td><strong>Appearances</strong></td>
+            <td><strong>Goals</strong></td>
+            <td><strong>MOTM</strong></td>
+        </tr>
+        <tr ng-repeat="player in players">
+            <td>{{player.name}}</td>
+            <td>{{player.appearances}}</td>
+            <td>{{player.goals}}</td>
+            <td>{{player.motm}}</td>
+        </tr>
+    </table>
+</div>
+
+<div class="panel panel-primary">
+    <div class="panel-heading">End of Season 1 Awards</div>
+    <table class="table">
+        <tr>
+            <td><strong>Award</strong></td>
+            <td><strong>Winner</strong></td>
+        </tr>
+        <tr>
+            <td>Most Appearances</td>
+            <td>{{seasonOneAppearances}}</td>
+        </tr>
+        <tr>
+            <td>Top Goalscorer</td>
+            <td>{{seasonOneGoalscorer}}</td>
+        </tr>
+        <tr>
+            <td>Best Goals to Games Ratio</td>
+            <td>{{seasonOneRatio}}</td>
+        </tr>
+        <tr>
+            <td>Man of the Season</td>
+            <td>{{seasonOnePlayer}}</td>
+        </tr>
+    </table>
+</div>
+
+<div class="panel panel-primary">
+    <div class="panel-heading">End of Season 2 Awards</div>
+    <table class="table">
+        <tr>
+            <td><strong>Award</strong></td>
+            <td><strong>Winner</strong></td>
+        </tr>
+        <tr>
+            <td>Most Appearances</td>
+            <td>{{seasonTwoAppearances}}</td>
+        </tr>
+        <tr>
+            <td>Top Goalscorer</td>
+            <td>{{seasonTwoGoalscorer}}</td>
+        </tr>
+        <tr>
+            <td>Best Goals to Games Ratio</td>
+            <td>{{seasonTwoRatio}}</td>
+        </tr>
+        <tr>
+            <td>Man of the Season</td>
+            <td>{{seasonTwoPlayer}}</td>
+        </tr>
+    </table>
+</div>

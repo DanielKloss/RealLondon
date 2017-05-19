@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
 
     <title>Real London</title>
 </head>
-<body>
+<body ng-app="realLondonApp">
     <div class="container">
         <div class="jumbotron">
             <h1>Real London</h1>
@@ -19,162 +17,14 @@
         <nav class="navbar navbar-default">
             <div class="container">
                 <ul class="nav navbar-nav">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="season1.html">Season One</a></li>
-                    <li><a href="season2.html">Season Two</a></li>
+                    <li><a href="#stats">Home</a></li>
+                    <li><a href="#season1">Season One</a></li>
+                    <li><a href="#season2">Season Two</a></li>
                 </ul>
             </div>
         </nav>
-
-        <div class="panel panel-primary">
-            <div class="panel-heading">Overall Player Stats</div>
-            <table class="table">
-                <tr>
-                    <td><strong>Player</strong></td>
-                    <td><strong>Appearances</strong></td>
-                    <td><strong>Goals</strong></td>
-                    <td><strong>MOTM</strong></td>
-                </tr>
-                <tr>
-                    <td>Dan Kloss</td>
-                    <td>9</td>
-                    <td>1</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>Alex Thornton</td>
-                    <td>10</td>
-                    <td>0</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>Mark Bridger</td>
-                    <td>5</td>
-                    <td>1</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>Tom Howourth</td>
-                    <td>10</td>
-                    <td>5</td>
-                    <td>1</td>
-                </tr>
-                <tr>
-                    <td>Thomas Hau</td>
-                    <td>4</td>
-                    <td>0</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>David Gluckstein</td>
-                    <td>3</td>
-                    <td>0</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>James McDowell</td>
-                    <td>8</td>
-                    <td>0</td>
-                    <td>1</td>
-                </tr>
-                <tr>
-                    <td>Tom Mantle</td>
-                    <td>8</td>
-                    <td>4</td>
-                    <td>4</td>
-                </tr>
-                <tr>
-                    <td>Rob Dan</td>
-                    <td>4</td>
-                    <td>1</td>
-                    <td>1</td>
-                </tr>
-                <tr>
-                    <td>John Haines</td>
-                    <td>2</td>
-                    <td>0</td>
-                    <td>0</td>
-                </tr>
-                <tr>
-                    <td>Josh HD</td>
-                    <td>4</td>
-                    <td>1</td>
-                    <td>1</td>
-                </tr>
-                <tr>
-                    <td>Jonny Dauncey</td>
-                    <td>1</td>
-                    <td>1</td>
-                    <td>1</td>
-                </tr>
-                <tr>
-                    <td>Joe Walker</td>
-                    <td>1</td>
-                    <td>0</td>
-                    <td>0</td>
-                </tr>
-            </table>
-        </div>
-
-        <div class="panel panel-primary">
-            <div class="panel-heading">End of Season 1 Awards</div>
-            <table class="table">
-                <tr>
-                    <td><strong>Award</strong></td>
-                    <td><strong>Winner</strong></td>
-                </tr>
-                <tr>
-                    <td>Most Appearances</td>
-                    <td>Tom Howourth (9) and Alex Thornton (9)</td>
-                </tr>
-                <tr>
-                    <td>Top Goalscorer</td>
-                    <td>Tom Howourth (4)</td>
-                </tr>
-                <tr>
-                    <td>Best Goals to Games Ratio</td>
-                    <td>Jonny Dauncey (1)</td>
-                </tr>
-                <tr>
-                    <td>Player of the Season</td>
-                    <td>Tom Mantle (5 motm)</td>
-                </tr>
-                <tr>
-                    <td>Biggest Debt</td>
-                    <td>Josh HD (£28.50)</td>
-                </tr>
-            </table>
-        </div>
-
-        <div class="panel panel-primary">
-            <div class="panel-heading">End of Season 2 Awards</div>
-            <table class="table">
-                <tr>
-                    <td><strong>Award</strong></td>
-                    <td><strong>Winner</strong></td>
-                </tr>
-                <tr>
-                    <td>Most Appearances</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>Top Goalscorer</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>Best Goals to Games Ratio</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>Player of the Season</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>Biggest Debt</td>
-                    <td></td>
-                </tr>
-            </table>
-        </div>
+        <div ng-view></div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

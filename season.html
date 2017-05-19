@@ -1,0 +1,12 @@
+<div class="panel panel-primary">
+    <div class="panel-body">{{overview}}</div>
+</div>
+
+<div class="panel panel-primary" ng-repeat="match in matches">
+    <div class="panel-heading">{{match.title}}</div>
+    <div class="panel-body">{{match.date}}</div>
+    <div class="panel-body">{{match.report}}</div>
+    <div class="panel-footer">TEAM - <span style="margin-right:5px" ng-repeat="player in match.team">{{player}}</span></div>
+    <div class="panel-footer">MOTM - {{match.motm}}</div>
+    <div class="panel-footer">GOALS - <span style="margin-right:5px" ng-repeat=" scorer in match.goals track by $index">{{scorer}}</span></div>
+</div>
