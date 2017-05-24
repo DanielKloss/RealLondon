@@ -136,7 +136,7 @@ app.controller('seasonTwoController', function ($scope) {
             team: ["Bridger", "Gizzi", "Gregory", "Hedley-Dent", "Hau", "Howourth", "Kloss"],
             motm: "Hau",
             goals: ["Howourth", "Kloss"],
-            highlights:""
+            highlights: "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FdreamleaguesUK%2Fvideos%2F1563107057064448%2F&show_text=0&width=560"
         }
     ];
 });
