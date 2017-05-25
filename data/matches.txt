@@ -170,27 +170,6 @@
    "season2":[
       {
          "id":1,
-         "title":"Real London 2 - 1 CF Korabi",
-         "date":"22 May 2017",
-         "report":"Real London continued their good start to the season with another win.\n\nAn early goal for the oposition left fans fearing the worst but they got a quick reply from their team when Hau won a penalty and Howorth stepped up to slot it home. From then on the match was a stalemate, Bridger was running things for the whites in midfield while Gregory and Hedley-Dent were combining well at the back to keep the opposition out.\n\nThe final seconds of the game loomed when Gizzi launched a long throw into the box. Thomas Hau caused more havoc in the opposition penalty area which left Kloss free to cushion his header and clinch all three points. As it turned out, that would be Hau's final act as a Real London player before is move back to his boyhood club in west London.",
-         "team":[
-            "Bridger",
-            "Gizzi",
-            "Gregory",
-            "Hedley-Dent",
-            "Hau",
-            "Howourth",
-            "Kloss"
-         ],
-         "motm":"Hau",
-         "goals":[
-            "Howourth",
-            "Kloss"
-         ],
-         "highlights":"https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FdreamleaguesUK%2Fvideos%2F1563107057064448%2F&show_text=0&width=560"
-      },
-      {
-         "id":2,
          "title":"Real London 5 - 1 Wapping Warriors",
          "date":"15-05-17",
          "report":"The season started with a game that will be remembered for two things. It was Thornton's final game before his big money move away to Asian Super League and Real London recorded their biggest ever win.\n\n5 goals flattered the opposition as in reality it could have been far more, still 5 different goal scorers left Real fans happy. The first goal was a great piece of individual skill from Hedley-Dent gliding through the defense he placed his shot low and beyond the keeper but the second was arguably the pick of the bunch. Howourth and Hedley-Dent combined really well to split the defnse wide open and leave Bridger to tap in from close range. Roles were reversed for the third as Bridger turned provider for Howourth who flicked the ball inside the far post.\n\nTom Mantel secured the fourth with a long range effort and the rout was completed in the last minute of the game when a good McDowell save allowed Real to brake away down field ending with Kloss smashing in while one on one with the keeper.",
@@ -212,6 +191,27 @@
             "Kloss"
          ],
          "highlights":"https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FdreamleaguesUK%2Fvideos%2F1555459097829244%2F&show_text=0&width=560"
+      },
+	  {
+         "id":2,
+         "title":"Real London 2 - 1 CF Korabi",
+         "date":"22 May 2017",
+         "report":"Real London continued their good start to the season with another win.\n\nAn early goal for the oposition left fans fearing the worst but they got a quick reply from their team when Hau won a penalty and Howorth stepped up to slot it home. From then on the match was a stalemate, Bridger was running things for the whites in midfield while Gregory and Hedley-Dent were combining well at the back to keep the opposition out.\n\nThe final seconds of the game loomed when Gizzi launched a long throw into the box. Thomas Hau caused more havoc in the opposition penalty area which left Kloss free to cushion his header and clinch all three points. As it turned out, that would be Hau's final act as a Real London player before is move back to his boyhood club in west London.",
+         "team":[
+            "Bridger",
+            "Gizzi",
+            "Gregory",
+            "Hedley-Dent",
+            "Hau",
+            "Howourth",
+            "Kloss"
+         ],
+         "motm":"Hau",
+         "goals":[
+            "Howourth",
+            "Kloss"
+         ],
+         "highlights":"https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FdreamleaguesUK%2Fvideos%2F1563107057064448%2F&show_text=0&width=560"
       }
    ]
 }
