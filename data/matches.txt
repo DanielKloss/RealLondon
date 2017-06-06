@@ -217,7 +217,7 @@
          "id":3,
          "title":"Real London 0 - 0 FC Vaslui",
          "date":"5 June 2017",
-         "report":"A potentially tricky game awaited Real London against the side top of the league.\n\nTo a man the boys in white were fantastic - defensive solidity came in the form of Gregory, Mantle and Kloss while the opposition defensive was opened up time and time again by Bridger, Gizzi and Howourth. Hedley-Dent's endless running in midfeild ensured Real London totally dominated.\n\nThe only thing lacking was a goal. Gilt edged chances came and went and as frustration grew the feeling that they might concede a sucker punch at the other end. The team however showed 'top-top-super-quality character' and ensured that if they couldn't win the game they didn't lose the game.",
+         "report":"A potentially tricky game awaited Real London against the side top of the league.\n\nTo a man the boys in white were fantastic - defensive solidity came in the form of Gregory, Mantle and Kloss while the opposition defensive was opened up time and time again by Bridger, Gizzi and Howourth. Hedley-Dent's endless running in midfeild ensured Real London totally dominated.\n\nThe only thing lacking was a goal. Gilt edged chances came and went and as frustration grew there was a feeling that they might concede a sucker punch at the other end. The team however showed 'top-top-super-quality character' and ensured that if they couldn't win the game they didn't lose the game.",
          "team":[
             "Bridger",
             "Gizzi",
