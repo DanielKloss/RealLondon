@@ -28,7 +28,7 @@ app.config(function ($routeProvider) {
 
 app.filter('trusted', ['$sce', function ($sce) {
     return function (url) {
-        return $sce.trustAsResourceUrl(url);
+        return $sce.trustAsResourceUrl(url + &show_text=false);
     };
 }]);
 
