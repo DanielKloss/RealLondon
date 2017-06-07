@@ -28,7 +28,7 @@ app.config(function ($routeProvider) {
 
 app.filter('trusted', ['$sce', function ($sce) {
     return function (url) {
-        return $sce.trustAsResourceUrl(url + &show_text=false);
+        return $sce.trustAsResourceUrl(url);
     };
 }]);
 
@@ -45,6 +45,10 @@ app.controller('photosController', function ($scope, $http) {
     $http.get("data/photos.txt")
     .then(function (response) {
         $scope.photos = response.data["photos"];
+        
+        angular.forEach(photo, function(value, key){
+            value += "&show_text=false";
+        });
     });
 });
 
