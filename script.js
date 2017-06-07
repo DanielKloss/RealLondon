@@ -46,8 +46,8 @@ app.controller('photosController', function ($scope, $http) {
     .then(function (response) {
         $scope.photos = response.data["photos"];
         
-        angular.forEach(photo, function(value, key){
-            value += "&show_text=false";
+        angular.forEach($scope.photos, function(photo, key){
+            photo += "&show_text=false";
         });
     });
 });
