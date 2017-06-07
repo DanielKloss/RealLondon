@@ -44,11 +44,11 @@ app.controller('seasonController', function ($scope, $route, $http) {
 app.controller('photosController', function ($scope, $http) {
     $http.get("data/photos.txt")
     .then(function (response) {
-        $scope.photos = response.data["photos"];
-        
-        angular.forEach($scope.photos, function(photo, key){
+        angular.forEach(response.data["photos"], function(photo, key){
             photo += "&show_text=false";
         });
+        
+        $scope.photos = response.data["photos"];
     });
 });
 
