@@ -1,5 +1,5 @@
 <div class="container-fluid">
     <div class="row">
-        <iframe class="col-md-4" ng-repeat="photo in photos" ng-src="{{photo + &show_text=false | trusted}}" width="500" height="472" style="border:none; overflow:hidden;" />
+        <iframe class="col-md-4" ng-repeat="photo in photos" ng-src="{{photo + '&show_text=false' | trusted}}" width="500" height="472" style="border:none; overflow:hidden;" />
     </div>
 </div>
