@@ -42,13 +42,13 @@ app.controller('seasonController', function ($scope, $route, $http) {
 });
 
 app.controller('photosController', function ($scope, $http) {
+    $scope.photos = [];
+    
     $http.get("data/photos.txt")
     .then(function (response) {
         angular.forEach(response.data["photos"], function(photo, key){
-            photo += "&show_text=false";
+            $scope.photos.push(photo += "&show_text=false");
         });
-        
-        $scope.photos = response.data["photos"];
     });
 });
 
