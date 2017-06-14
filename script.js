@@ -35,34 +35,111 @@ app.filter('trusted', ['$sce', function ($sce) {
 app.controller('seasonController', function ($scope, $route, $http) {
     $http.get("data/matches.txt")
     .then(function (response) {
-        $scope.matches = response.data["season" + $route.current.seasonNumber];
-        $scope.overview = response.data["seasonOverview" + $route.current.seasonNumber];
-        $scope.title = response.data["seasonTitle" + $route.current.seasonNumber];
+        angular.forEach(response.data["seasons"], function (season, key) {
+
+            if (season["seasonId"] == $route.current.seasonNumber) {
+                $scope.matches = season["matches"];
+                $scope.overview = season["seasonOverview"];
+                $scope.title = season["seasonTitle"];
+            }
+        })
     });
 });
 
 app.controller('photosController', function ($scope, $http) {
     $scope.photos = [];
-    
+
     $http.get("data/photos.txt")
     .then(function (response) {
-        angular.forEach(response.data["photos"], function(photo, key){
+        angular.forEach(response.data["photos"], function (photo, key) {
             $scope.photos.push(photo += "&show_text=false");
         });
     });
 });
 
 app.controller('statsController', function ($scope, $http) {
-    $http.get("data/players.txt")
+    $scope.players = [];
+
+    $http.get("data/matches.txt")
     .then(function (response) {
-        $scope.players = response.data["players"];
+        angular.forEach(response.data["seasons"], function (season, key) {
+            angular.forEach(season["matches"], function (match, key) {
+
+                //Get APPEARANCES
+                angular.forEach(match["team"], function (team, key) {
+
+                    var found = false;
+                    var foundIndex = 0;
+                    for (var i = 0; i < $scope.players.length; i++) {
+                        if ($scope.players[i].name == team) {
+                            found = true;
+                            foundIndex = i;
+                            break;
+                        }
+                    }
+
+                    if (found) {
+                        $scope.players[i].appearances++;
+                    } else {
+                        $scope.players.push(new player(team, 1, 0, 0));
+                    }
+                })
+
+                //Get GOALS
+                angular.forEach(match["goals"], function (goals, key) {
+
+                    var found = false;
+                    var foundIndex = 0;
+                    for (var i = 0; i < $scope.players.length; i++) {
+                        if ($scope.players[i].name == goals) {
+                            found = true;
+                            foundIndex = i;
+                            break;
+                        }
+                    }
+
+                    if (found) {
+                        $scope.players[i].goals++;
+                    }
+                })
+
+                //Get MOTMS
+                var found = false;
+                var foundIndex = 0;
+                for (var i = 0; i < $scope.players.length; i++) {
+                    if ($scope.players[i].name == match.motm) {
+                        found = true;
+                        foundIndex = i;
+                        break;
+                    }
+                }
+
+                if (found) {
+                    $scope.players[i].motm++;
+                }
+            })
+        })
+    });
+
+    $http.get("data/awards.txt")
+    .then(function (response) {
         $scope.seasonAwards = response.data["seasonAwards"];
     });
 });
 
+function player(name, appearances, goals, motm) {
+    this.name = name;
+    this.appearances = appearances;
+    this.goals = goals;
+    this.motm = motm;
+}
 
-
-
+function seasonAwards(appearances, goals, motm, ratio) {
+    this.appearances = appearances;
+    this.goals = goals;
+    this.motm = motm;
+    this.ratio = ratio;
+}
 
 
 
