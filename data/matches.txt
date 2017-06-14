@@ -230,6 +230,24 @@
          "motm":"Hedley-Dent",
          "goals":[],
          "highlights":"https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FdreamleaguesUK%2Fvideos%2F1580696088638878%2F&show_text=0&width=560"
+      },
+      {
+         "id":4,
+         "title":"Real London 1 - 2 Parkstars FC",
+         "date":"12 June 2017",
+         "report":"Real London were brough crashing back down to earth with their first defeat of the season. The opposition team were in stark contrast to the scouting report and soon put together a good passing move resulting in the first goal.\n\nAs Real London grew into the game Howourth and Bridger had sightings of goal and their pressure paid off when the ball broke to Gluckstien who finished enfatically into the top corner. Real London went into half time on top and felt they could still snatch some points from the game. However, their concentration lapsed stright after the restart and they were behind again before they knew it.\n\nLate pressure including a shot from McDowell that fizzed the wrong side of the post couldn't prevent the loss. To add insult to injury, news broke after the game that Mantle's loan spell at the club would be ending as he was called back to his parent club.",
+         "team":[
+            "Bridger",
+            "Gizzi",
+            "Gluckstien",
+            "Howourth",
+            "Kloss",
+	    "Mantle",
+	    "McDowell"
+         ],
+         "motm":"Gluckstien",
+         "goals":[Gluckstien],
+         "highlights":""
       }
    ]
 }
