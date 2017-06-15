@@ -1,4 +1,4 @@
-var app = angular.module("realLondonApp", ["ngRoute"]);
+var app = angular.module("realLondonApp", ["ngRoute", "ui.bootstrap"]);
 
 app.config(function ($routeProvider) {
     $routeProvider
@@ -33,6 +33,9 @@ app.filter('trusted', ['$sce', function ($sce) {
 }]);
 
 app.controller('seasonController', function ($scope, $route, $http) {
+    $scope.noWrapSlides = false;
+    $scope.activeSlide = 0;
+
     $http.get("data/matches.txt")
     .then(function (response) {
         angular.forEach(response.data["seasons"], function (season, key) {
@@ -41,19 +44,14 @@ app.controller('seasonController', function ($scope, $route, $http) {
                 $scope.matches = season["matches"];
                 $scope.overview = season["seasonOverview"];
                 $scope.title = season["seasonTitle"];
+
+                angular.forEach(season.matches, function (match, key) {
+                    for (var i = 0; i < match.photos.length; i++) {
+                        match.photos[i] = match.photos[i] + "&show_text=false";
+                    }
+                });
             }
         })
-    });
-});
-
-app.controller('photosController', function ($scope, $http) {
-    $scope.photos = [];
-
-    $http.get("data/photos.txt")
-    .then(function (response) {
-        angular.forEach(response.data["photos"], function (photo, key) {
-            $scope.photos.push(photo += "&show_text=false");
-        });
     });
 });
 

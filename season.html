@@ -8,7 +8,15 @@
     <div class="panel-body">{{match.date}}</div>
     <div class="panel-body" style="white-space:pre-line">{{match.report}}</div>
 
-    <iframe class="panel-body" ng-src="{{match.highlights | trusted}}" width="560" height="315" style="border:none; overflow:hidden; display:block; margin:0 auto" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true"></iframe>
+    <div class="holds-the-iframe" style="background:url(loading.png) center center no-repeat;">
+        <iframe class="panel-body" ng-src="{{match.highlights | trusted}}" width="560" height="315" style="border:none; overflow:hidden; display:block; margin:0 auto" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true"></iframe>
+    </div>
+
+    <uib-carousel>
+        <uib-slide ng-repeat="photo in match.photos" active="active" index="$index">
+            <iframe ng-src="{{photo | trusted}}" width="500" height="472" style="border:none; overflow:hidden;" />
+        </uib-slide>
+    </uib-carousel>
 
     <div class="panel-footer">TEAM - <span style="margin-right:5px" ng-repeat="player in match.team">{{player}}{{$last ? '' : ','}}</span></div>
     <div class="panel-footer">MOTM - {{match.motm}}</div>
