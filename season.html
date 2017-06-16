@@ -3,7 +3,7 @@
     <div class="panel-body">{{overview}}</div>
 </div>
 
-<div class="panel panel-primary" ng-repeat="match in matches">
+<div class="panel" ng-class="{'panel-success': match.winLoseDraw == 'win', 'panel-warning': match.winLoseDraw == 'draw', 'panel-danger':match.winLoseDraw == 'lose'}" ng-repeat="match in matches">
     <div class="panel-heading">{{match.title}}</div>
     <div class="panel-body">{{match.date}}</div>
     <div class="panel-body" style="white-space:pre-line">{{match.report}}</div>
@@ -13,7 +13,7 @@
     </div>
 
     <uib-carousel>
-        <uib-slide ng-repeat="photo in match.photos" active="active" index="$index">
+        <uib-slide ng-repeat="photo in match.photos" index="$index">
             <iframe ng-src="{{photo | trusted}}" width="500" height="472" style="border:none; overflow:hidden;" />
         </uib-slide>
     </uib-carousel>

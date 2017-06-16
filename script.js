@@ -49,6 +49,21 @@ app.controller('seasonController', function ($scope, $route, $http) {
                     for (var i = 0; i < match.photos.length; i++) {
                         match.photos[i] = match.photos[i] + "&show_text=false";
                     }
+
+                    var numberExpression = /\d+/g;
+                    var score;
+                    var scores = [];
+                    while ((score = numberExpression.exec(match.title)) != null) {
+                        scores.push(score[0]);
+                    }
+
+                    if (scores[0] > scores[1]) {
+                        match.winLoseDraw = "win";
+                    } else if (scores[0] < scores[1]) {
+                        match.winLoseDraw = "lose";
+                    } else {
+                        match.winLoseDraw = "draw";
+                    }
                 });
             }
         })
