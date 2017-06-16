@@ -64,6 +64,8 @@ app.controller('seasonController', function ($scope, $route, $http) {
                     } else {
                         match.winLoseDraw = "draw";
                     }
+
+                    $scope.tab = 'report';
                 });
             }
         })
