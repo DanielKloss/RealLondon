@@ -73,6 +73,8 @@ app.controller('seasonController', function ($scope, $route, $http) {
 });
 
 app.controller('statsController', function ($scope, $http) {
+    $scope.orderByField = 'appearances';
+    $scope.reverseSort = true;
     $scope.players = [];
 
     $http.get("data/matches.txt")
