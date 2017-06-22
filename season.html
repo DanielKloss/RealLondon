@@ -3,15 +3,25 @@
     <div class="panel-body">{{overview}}</div>
 </div>
 
-<div class="panel" ng-class="{'panel-success': match.winLoseDraw == 'win', 'panel-warning': match.winLoseDraw == 'draw', 'panel-danger':match.winLoseDraw == 'lose'}" ng-repeat="match in matches">
+<div class="panel" ng-class="{'panel-success': match.winLoseDraw == 'win', 'panel-warning': match.winLoseDraw == 'draw', 'panel-danger': match.winLoseDraw == 'lose', 'panel-primary': match.winLoseDraw == 'scout'}" ng-repeat="match in matches track by $index">
     <div class="panel-heading">{{match.title}}</div>
     <div class="panel-body">{{match.date}}</div>
 
     <ul class="nav nav-pills nav-justified">
-        <li role="presentation" ng-class="{active:tab=='report'}"><a ng-click="tab = tab=='report' ? a : 'report'">Post Match Report</a></li>
-        <li role="presentation" ng-class="{active:tab=='highlights'}"><a ng-click="tab = tab=='highlights' ? a : 'highlights'">Highlights</a></li>
-        <li role="presentation" ng-class="{active:tab=='photos'}"><a ng-click="tab = tab=='photos' ? a : 'photos'">Photos</a></li>
+        <li role="presentation" ng-class="{active:tab=='scout'}"><a ng-click="tab = tab == 'scout' ? a : 'scout'">Scout Report</a></li>
+        <li role="presentation" ng-class="{active:tab=='report'}"><a ng-click="tab = tab == 'report' ? a : 'report'">Match Report</a></li>
+        <li role="presentation" ng-class="{active:tab=='highlights'}"><a ng-click="tab = tab == 'highlights' ? a : 'highlights'">Highlights</a></li>
+        <li role="presentation" ng-class="{active:tab=='photos'}"><a ng-click="tab = tab == 'photos' ? a : 'photos'">Photos</a></li>
     </ul>
+
+    <div class="panel-body" ng-show="tab == 'scout'">
+        <div>
+            <span>League Position:</span>
+            <span>{{match.leaguePosition}}</span>
+        </div>
+        <span class="label" ng-class="{'label-success': result == 'W', 'label-warning': result == 'D', 'label-danger': result == 'L'}" ng-repeat="result in match.form track by $index">{{result}}</span>
+        <div style="white-space:pre-line">{{match.scoutReport}}</div>
+    </div>
 
     <div class="panel-body" style="white-space:pre-line" ng-show="tab == 'report'">{{match.report}}</div>
 
