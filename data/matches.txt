@@ -485,7 +485,7 @@
                "date":"26 June 2017",
 			   "form": [ "L", "L", "W", "D", "L"],
 			   "leaguePosition": "6th",
-			   "scoutReport": "CRB's only win came against Wapping Warriors, a team that we also beat (5-1). It looks as though they put a good perfromance in against Parkstars FC, who we lost to (2-1), and could be signs that they are improving.\n\nNot to be underestimated.",
+			   "scoutReport": "CRB's only win came against Wapping Warriors, a team that we also beat (5-1). It looks as though they put a in a good perfromance in thier last match against Parkstars FC, who we lost to (2-1). Could be signs that that they are improving?\n\nNot to be underestimated.",
                "report":"",
                "team":[
                   
