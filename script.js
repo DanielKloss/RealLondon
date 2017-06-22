@@ -41,6 +41,8 @@ app.controller('seasonController', function ($scope, $route, $http) {
         angular.forEach(response.data["seasons"], function (season, key) {
 
             if (season["seasonId"] == $route.current.seasonNumber) {
+                $scope.tab = 'report';
+
                 $scope.matches = season["matches"];
                 $scope.overview = season["seasonOverview"];
                 $scope.title = season["seasonTitle"];
@@ -57,7 +59,9 @@ app.controller('seasonController', function ($scope, $route, $http) {
                         scores.push(score[0]);
                     }
 
-                    if (scores[0] > scores[1]) {
+                    if (scores.length < 2) {
+                        match.winLoseDraw = "scout";
+                    } else if (scores[0] > scores[1]) {
                         match.winLoseDraw = "win";
                     } else if (scores[0] < scores[1]) {
                         match.winLoseDraw = "lose";
@@ -65,7 +69,7 @@ app.controller('seasonController', function ($scope, $route, $http) {
                         match.winLoseDraw = "draw";
                     }
 
-                    $scope.tab = 'report';
+                    console.log(match["form"]);
                 });
             }
         })
