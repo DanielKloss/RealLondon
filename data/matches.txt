@@ -520,11 +520,31 @@
             },
 			{
                "id":6,
-               "title":"Real London vs CRB",
+               "title":"Real London 0 - 3 CRB",
                "date":"26 June 2017",
 			   "form": [ "L", "L", "W", "D", "L"],
 			   "leaguePosition": "6th",
 			   "scoutReport": "CRB's only win came against Wapping Warriors, a team that we also beat (5-1). It looks as though they put a in a good perfromance in thier last match against Parkstars FC, who we lost to (2-1). Could be signs that that they are improving?\n\nNot to be underestimated.",
+               "report":"Real London failed to get a team out for this game due to international fixtures and injuries. A default 3-0 loss marks three points dropped against a team they were expecting to beat.",
+               "team":[
+                  
+               ],
+               "motm":"",
+               "goals":[
+                  
+               ],
+               "highlights":"",
+			   "photos":[
+	
+			   ]
+            },
+	    {
+               "id":7,
+               "title":"Real London vs Central United",
+               "date":"3 July 2017",
+			   "form": [ "L", "W", "L", "L", "L", "W"],
+			   "leaguePosition": "7th",
+			   "scoutReport": "Central United have recorded wins against league whipping boys Wapping Warriors and Parkstars. Overall, they look pretty poor and nothing but a win will be satisfactory for Kloss who is coming up against a classic rival in his cousin-in-law.",
                "report":"",
                "team":[
                   
