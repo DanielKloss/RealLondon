@@ -545,7 +545,7 @@
 			   "form": [ "L", "W", "L", "L", "L", "W"],
 			   "leaguePosition": "7th",
 			   "scoutReport": "Central United have recorded wins against league whipping boys Wapping Warriors and Parkstars. Overall, they look very beatable and nothing but a win will be satisfactory for Kloss who is coming up against a classic rival in his cousin-in-law.",
-               "report":"Although the scoreline somewhat flattered Real London they deserved the win. Impressive debut performances merged well with the stalwarts of the team and it wasn't long before Howourth had rounded the keeper for the opening goal./n/nThe oppoisiton might have felt hard done by at half time haveing had most of the ball the most opportunities. They finally made their pressure tell with an equaliser in the second half after a lapse in defensive concentration and at that point it could have gone either way - Luckily for the boys in white it tipped their way. Jackson's crucial save from a long range effort set them on their way. Chris scored a fanatastic solo goal and Howouth pounced on a lose ball to make it 3-1. In the dying seconds Will found himself through on goal and made no mistake with the finish to wrap things up.",
+               "report":"Although the scoreline somewhat flattered Real London they deserved the win. Impressive debut performances merged well with the stalwarts of the team and it wasn't long before Howourth had rounded the keeper for the opening goal./n/nThe oppoisiton might have felt hard done by at half time haveing had most of the ball the most opportunities. They finally made their pressure tell with an equaliser in the second half after a lapse in defensive concentration and at that point it could have gone either way - Luckily for the boys in white it tipped their way. Jackson's crucial save from a long range effort set them on their way. Howouth pounced on a lose ball and Chris scored a fanatastic solo goal to make it 3-1. In the dying seconds Will found himself through on goal and made no mistake with the finish to wrap things up.",
                "team":[
                   "David Gluckstein",
 		  "Tom Howourth",
@@ -558,8 +558,8 @@
                "motm":"Chris",
                "goals":[
                   "Tom Howourth",
-		  "Chris",
 		  "Tom Howourth",
+		  "Chris",
 		  "Will"
                ],
                "highlights":"https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FdreamleaguesUK%2Fvideos%2F1616859105022576%2F&show_text=0&width=560",
