@@ -580,6 +580,23 @@
 	"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FdreamleaguesUK%2Fphotos%2Fa.1619305611444592.1073743360.583643728344124%2F1619309104777576%2F%3Ftype%3D3&width=500",
 	"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FdreamleaguesUK%2Fphotos%2Fa.1619305611444592.1073743360.583643728344124%2F1619308608110959%2F%3Ftype%3D3&width=500"
 			   ]
+            },
+	    "id":7,
+               "title":"Real London - Wapping Warriors",
+               "date":"10 July 2017",
+			   "form": [ "L", "L", "L", "W", "L", "L", "W"],
+			   "leaguePosition": "7th",
+			   "scoutReport": "Wapping Warriors have got one of the worst records in the league. We beat them comfortably in the first game of the season and expect to do so again. Nothing but a win will do.",
+               "report":"",
+               "team":[
+                  
+               ],
+               "motm":"",
+               "goals":[
+                  
+               ],
+               "highlights":"",
+			   "photos":[ ]
             }
          ]
       }
