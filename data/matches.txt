@@ -552,7 +552,7 @@
 		  "Jack Jackson",
 		  "Dan Kloss",
 		  "Chris Daniels",
-		  "Will",
+		  "Will Smith",
 		  "Dan"
                ],
                "motm":"Chris Daniels",
@@ -560,7 +560,7 @@
                   "Tom Howourth",
 		  "Tom Howourth",
 		  "Chris Daniels",
-		  "Will"
+		  "Will Smith"
                ],
                "highlights":"https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FdreamleaguesUK%2Fvideos%2F1616859105022576%2F&show_text=0&width=560",
 			   "photos":[
