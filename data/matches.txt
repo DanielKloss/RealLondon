@@ -598,7 +598,7 @@
 		  "Kuran",
 		  "James McDowell"
                ],
-               "motm":"",
+               "motm":"Leo Gizzi",
                "goals":[
                   "Kuran",
 		  "James McDowell"
