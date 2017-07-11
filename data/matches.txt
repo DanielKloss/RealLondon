@@ -591,16 +591,16 @@
                "report":"For the second week running Real London fielded a mix of debutants, regular and semi-regular players. Unlike the previous week though they were unable to find their rhythm and it was obvious to fans that they had very little playing time together. 3-0 down at the midpoint of the second half flattered the oppoistion but Real London couldn't have nay arguements about being behind. Defensive mixups and stray passes meant that they didn't look like getting anything from the game.\n\n But football is a funny old game and after two suberb flowing passing moves the boys in white found themselves back in the game - Kuran finished the first enfatically and McDowell swept home just seconds later. Optimism flowed through the team and there was a real feeling that they could snatch a draw from the jaws of defeat. They had the chances to equalise but the ball just wouldn't drop for them and they were punished with a 4th goal fro mthe counter attack in the dying seconds as they pushed players forward.",
                "team":[
 	          "Mark Bridger",
-		  "Cap",
+		  "Capeesh",
 		  "Leo Gizzi",
                   "Jack Jackson",
 		  "Dan Kloss",
-		  "Kuran",
+		  "Karun Ahluwahlia",
 		  "James McDowell"
                ],
                "motm":"Leo Gizzi",
                "goals":[
-                  "Kuran",
+                  "Karun Ahluwahlia",
 		  "James McDowell"
                ],
                "highlights":"",
