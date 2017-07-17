@@ -7,33 +7,12 @@
     <div class="panel-heading">{{match.title}}</div>
     <div class="panel-body">{{match.date}}</div>
 
-    <ul class="nav nav-pills nav-justified">
-        <li role="presentation" ng-class="{active:tab=='scout'}"><a ng-click="tab = tab == 'scout' ? a : 'scout'">Scout Report</a></li>
-        <li role="presentation" ng-class="{active:tab=='report'}"><a ng-click="tab = tab == 'report' ? a : 'report'">Match Report</a></li>
-        <li role="presentation" ng-class="{active:tab=='highlights'}"><a ng-click="tab = tab == 'highlights' ? a : 'highlights'">Highlights</a></li>
-        <li role="presentation" ng-class="{active:tab=='photos'}"><a ng-click="tab = tab == 'photos' ? a : 'photos'">Photos</a></li>
-    </ul>
-
-    <div class="panel-body" ng-show="tab == 'scout'">
-        <div>
-            <span>League Position:</span>
-            <span>{{match.leaguePosition}}</span>
-        </div>
-        <span class="label" ng-class="{'label-success': result == 'W', 'label-warning': result == 'D', 'label-danger': result == 'L'}" ng-repeat="result in match.form track by $index">{{result}}</span>
-        <div style="white-space:pre-line">{{match.scoutReport}}</div>
-    </div>
-
-    <div class="panel-body" style="white-space:pre-line" ng-show="tab == 'report'">{{match.report}}</div>
-
-    <div class="holds-the-iframe" ng-show="tab == 'highlights'" style="background:url(loading.png) center center no-repeat;">
-        <iframe class="panel-body" ng-src="{{match.highlights | trusted}}" width="560" height="315" style="border:none; overflow:hidden; display:block; margin:0 auto" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true"></iframe>
-    </div>
-
-    <uib-carousel ng-show="tab == 'photos'">
-        <uib-slide ng-repeat="photo in match.photos" index="$index">
-            <iframe ng-src="{{photo | trusted}}" width="500" height="472" style="border:none; overflow:hidden;" />
-        </uib-slide>
-    </uib-carousel>
+    <tabset>
+        <tab title="Scout Report" template-url="scoutReport.html"></tab>
+        <tab title="Match Report" template-url="matchReport.html"></tab>
+        <tab title="Highlights" template-url="highlights.html"></tab>
+        <tab title="Photos" template-url="photos.html"></tab>
+    </tabset>
 
     <div class="panel-footer">TEAM - <span style="margin-right:5px" ng-repeat="player in match.team">{{player}}{{$last ? '' : ','}}</span></div>
     <div class="panel-footer">MOTM - {{match.motm}}</div>

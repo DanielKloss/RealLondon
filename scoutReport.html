@@ -1,0 +1,8 @@
+<div class="panel-body">
+    <div>
+        <span>League Position:</span>
+        <span>{{match.leaguePosition}}</span>
+    </div>
+    <span class="label" ng-class="{'label-success': result == 'W', 'label-warning': result == 'D', 'label-danger': result == 'L'}" ng-repeat="result in match.form track by $index">{{result}}</span>
+    <div style="white-space:pre-line">{{match.scoutReport}}</div>
+</div>
