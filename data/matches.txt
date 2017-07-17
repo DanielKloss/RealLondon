@@ -604,15 +604,30 @@
 		  "James McDowell"
                ],
                "highlights":"https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FdreamleaguesUK%2Fvideos%2F1625587904149696%2F&show_text=0&width=560",
-			   "photos":[ ]
+			   "photos":[ 
+			   	"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FdreamleaguesUK%2Fphotos%2Fa.1628932493815237.1073743378.583643728344124%2F1628941747147645%2F%3Ftype%3D3&width=500",
+				"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FdreamleaguesUK%2Fphotos%2Fa.1628932493815237.1073743378.583643728344124%2F1628941863814300%2F%3Ftype%3D3&width=500",
+				"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FdreamleaguesUK%2Fphotos%2Fa.1628932493815237.1073743378.583643728344124%2F1628941760480977%2F%3Ftype%3D3&width=500",
+				"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FdreamleaguesUK%2Fphotos%2Fa.1628932493815237.1073743378.583643728344124%2F1628940780481075%2F%3Ftype%3D3&width=500",
+				"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FdreamleaguesUK%2Fphotos%2Fa.1628932493815237.1073743378.583643728344124%2F1628941653814321%2F%3Ftype%3D3&width=500",
+				"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FdreamleaguesUK%2Fphotos%2Fa.1628932493815237.1073743378.583643728344124%2F1628941860480967%2F%3Ftype%3D3&width=500",
+				"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FdreamleaguesUK%2Fphotos%2Fa.1628932493815237.1073743378.583643728344124%2F1628941223814364%2F%3Ftype%3D3&width=500"
+				"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FdreamleaguesUK%2Fphotos%2Fa.1628932493815237.1073743378.583643728344124%2F1628941543814332%2F%3Ftype%3D3&width=500",
+				"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FdreamleaguesUK%2Fphotos%2Fa.1628932493815237.1073743378.583643728344124%2F1628941657147654%2F%3Ftype%3D3&width=500",
+				"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FdreamleaguesUK%2Fphotos%2Fa.1628932493815237.1073743378.583643728344124%2F1628938877147932%2F%3Ftype%3D3&width=500",
+				"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FdreamleaguesUK%2Fphotos%2Fa.1628932493815237.1073743378.583643728344124%2F1628936963814790%2F%3Ftype%3D3&width=500",
+				"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FdreamleaguesUK%2Fphotos%2Fa.1628932493815237.1073743378.583643728344124%2F1628937567148063%2F%3Ftype%3D3&width=500",
+				"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FdreamleaguesUK%2Fphotos%2Fa.1628932493815237.1073743378.583643728344124%2F1628933250481828%2F%3Ftype%3D3&width=500",
+				"https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FdreamleaguesUK%2Fphotos%2Fa.1628932493815237.1073743378.583643728344124%2F1628936093814877%2F%3Ftype%3D3&width=500"
+			   ]
             },
 	    {
 	    "id":9,
                "title":"Real London - CF Korabi",
                "date":"17 July 2017",
-			   "form": [ "L", "L", "W", "D", "W", "W", "W", ""],
+			   "form": [ "L", "L", "W", "D", "W", "W", "W", "D"],
 			   "leaguePosition": "2nd",
-			   "scoutReport": "",
+			   "scoutReport": "It's tight at the top of the table. This is a real 6 pointer against a good team. A win here could propel us to the top if the other results go our way. It'll be a tough game but we beat them 2-1 last time out with a last minute winner.",
                "report":"",
                "team":[
 	          
