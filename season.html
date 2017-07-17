@@ -5,7 +5,7 @@
 
 <div class="panel" ng-class="{'panel-success': match.winLoseDraw == 'win', 'panel-warning': match.winLoseDraw == 'draw', 'panel-danger': match.winLoseDraw == 'lose', 'panel-primary': match.winLoseDraw == 'scout'}" ng-repeat="match in matches track by $index">
     <div class="panel-heading">{{match.title}}</div>
-    <div class="panel-body">{{match.date}}</div>
+    <div class="panel-body">{{match.date}} - {{match.time}}</div>
 
     <tabset>
         <tab title="Scout Report" template-url="scoutReport.html"></tab>
