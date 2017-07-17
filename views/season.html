@@ -8,10 +8,10 @@
     <div class="panel-body">{{match.date}} - {{match.time}}</div>
 
     <tabset>
-        <tab title="Scout Report" template-url="scoutReport.html"></tab>
-        <tab title="Match Report" template-url="matchReport.html"></tab>
-        <tab title="Highlights" template-url="highlights.html"></tab>
-        <tab title="Photos" template-url="photos.html"></tab>
+        <tab title="Scout Report" template-url="views/matchViews/scoutReport.html"></tab>
+        <tab title="Match Report" template-url="views/matchViews/matchReport.html"></tab>
+        <tab title="Highlights" template-url="views/matchViews/highlights.html"></tab>
+        <tab title="Photos" template-url="views/matchViews/photos.html"></tab>
     </tabset>
 
     <div class="panel-footer">TEAM - <span style="margin-right:5px" ng-repeat="player in match.team">{{player}}{{$last ? '' : ','}}</span></div>
