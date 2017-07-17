@@ -701,13 +701,7 @@
                "scoutReport":"It's tight at the top of the table. This is a real 6 pointer against a good team. A win here could propel us to the top if the other results go our way. It'll be a tough game but we beat them 2-1 last time out with a last minute winner.",
                "report":"",
                "team":[
-				  "Leo Gizzi",
-				  "David Gluckstein",
-				  "Tom Howourth",
-				  "Jack Jackson",
-				  "Jeremy Jones",
-				  "Dan Kloss",
-				  "James McDowell"
+				  
                ],
                "motm":"",
                "goals":[
