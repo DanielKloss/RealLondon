@@ -137,8 +137,6 @@ app.controller('seasonController', function ($scope, $route, $http) {
                     } else {
                         match.winLoseDraw = "draw";
                     }
-
-                    console.log(match["form"]);
                 });
             }
         })
