@@ -699,7 +699,7 @@
                ],
                "leaguePosition":"2nd",
                "scoutReport":"It's tight at the top of the table. This is a real 6 pointer against a good team. A win here could propel us to the top if the other results go our way. It'll be a tough game but we beat them 2-1 last time out with a last minute winner.",
-               "report":"Another disappointing display from Real London meant they suffered back to back defeats for the first time this season. In truth the boys wearing white never really got going, although the likes of Howourth and Jones endeavoured to make something happen the opposition goalkeeper was rarely tested./n/nSome poor defensive displays saw them ship 3 goals in a matter of minutes early in the second half and although they didn't concede again they never looke like getting back into the game.",
+               "report":"Another disappointing display from Real London meant they suffered back to back defeats for the first time this season. In truth the boys wearing white never really got going, although the likes of Howourth and Jones endeavoured to make something happen the opposition goalkeeper was rarely tested.\n\nSome poor defensive displays saw them ship 3 goals in a matter of minutes early in the second half and although they didn't concede again they never looke like getting back into the game.",
                "team":[
 				  "Leo Gizzi",
 				  "David Gluckstein",
