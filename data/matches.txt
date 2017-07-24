@@ -720,15 +720,23 @@
             },
             {
                "id":10,
-               "title":"Real London - FC Vaslui",
+               "title":"Real London 0 - 3 FC Vaslui",
                "date":"24 July 2017",
 			   "time":"20:30",
                "form":[
-                  
+                  "W",
+				  "W",
+				  "D",
+				  "W",
+				  "W",
+				  "W",
+				  "L",
+				  "D",
+				  "L"
                ],
-               "leaguePosition":"",
-               "scoutReport":"",
-               "report":"",
+               "leaguePosition":"1st",
+               "scoutReport":"Like us, they started very brightly and have faltered over the last few weeks. We managed a draw against them in the reverse fixture and our chances of winning the league hinge on a victory.",
+               "report":"For the second time this season Real London were unable to field a team. The walkover defeat leaves their title and promotion chances in tatters.",
                "team":[
 				  
                ],
