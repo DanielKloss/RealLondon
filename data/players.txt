@@ -1,0 +1,28 @@
+{
+   "players":[
+		"Dan Kloss",
+		"Alex Thornton",
+		"Tom Howourth",
+		"Tom Mantle",
+		"James McDowell",
+		"Thomas Hau",
+		"John Haines",
+		"Rob Dann",
+		"David Gluckstein",
+		"Mark Bridger",
+		"Josh Hedley-Dent",
+		"Jonny Dauncey",
+		"Joe Walker",
+		"Leo Gizzi",
+		"Bob Gregory",
+		"Matt Hurst",
+		"Alex Jukes",
+		"Chris Daniels",
+		"Jack Jackson",
+		"Will Smith",
+		"Dan",
+		"Karun Ahluwahlia",
+		"Kapish Patel",
+		"Jeremy Jones"
+   ]
+}

@@ -1,14 +1,7 @@
-app.controller('statsController', function ($scope, $http) {
+app.controller('statsController', ['$scope', '$http', 'playerService', function ($scope, $http, playerService) {
     $scope.orderByField = 'appearances';
     $scope.reverseSort = true;
     $scope.players = [];
-
-    $scope.playerResponse;
-
-    $http.get("data/players.txt")
-    .then(function (response) {
-        playerResponse = response;
-    });
 
     $http.get("data/matches.txt")
     .then(function (response) {
@@ -77,6 +70,6 @@ app.controller('statsController', function ($scope, $http) {
     });
 
     $scope.GetPlayerName = function (id) {
-        return playerResponse.data["players"][id];
+        return playerService.GetPlayerName(id);
     }
-});
+}]);

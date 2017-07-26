@@ -1,20 +1,10 @@
-app.controller('seasonController', function ($scope, $route, $http) {
-    $scope.noWrapSlides = false;
-    $scope.activeSlide = 0;
-
-    $scope.playerResponse;
-
-    $http.get("data/players.txt")
-    .then(function (response) {
-        playerResponse = response;
-    });
+app.controller('seasonController', ['$scope', '$route', '$http', 'playerService', function ($scope, $route, $http, playerService) {
 
     $http.get("data/matches.txt")
     .then(function (response) {
         angular.forEach(response.data["seasons"], function (season, key) {
 
             if (season["seasonId"] == $route.current.seasonNumber) {
-                $scope.tab = 'report';
 
                 $scope.matches = season["matches"];
                 $scope.overview = season["seasonOverview"];
@@ -47,6 +37,6 @@ app.controller('seasonController', function ($scope, $route, $http) {
     });
 
     $scope.GetPlayerName = function (id) {
-        return playerResponse.data["players"][id];
+        return playerService.GetPlayerName(id);
     }
-});
+}]);
