@@ -14,7 +14,7 @@
         <tab title="Photos" template-url="views/matchViews/photos.html"></tab>
     </tabset>
 
-    <div class="panel-footer">TEAM - <span style="margin-right:5px" ng-repeat="player in match.team">{{player}}{{$last ? '' : ','}}</span></div>
-    <div class="panel-footer">MOTM - {{match.motm}}</div>
-    <div class="panel-footer">GOALS - <span style="margin-right:5px" ng-repeat=" scorer in match.goals track by $index">{{scorer}}{{$last ? '' : ','}}</span></div>
+    <div class="panel-footer">TEAM - <span style="margin-right:5px" ng-repeat="player in match.team">{{GetPlayerName(player)}}{{$last ? '' : ','}}</span></div>
+    <div class="panel-footer">MOTM - {{GetPlayerName(match.motm)}}</div>
+    <div class="panel-footer">GOALS - <span style="margin-right:5px" ng-repeat=" scorer in match.goals track by $index">{{GetPlayerName(scorer)}}{{$last ? '' : ','}}</span></div>
 </div>

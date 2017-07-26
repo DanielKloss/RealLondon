@@ -2,6 +2,13 @@ app.controller('seasonController', function ($scope, $route, $http) {
     $scope.noWrapSlides = false;
     $scope.activeSlide = 0;
 
+    $scope.playerResponse;
+
+    $http.get("data/players.txt")
+    .then(function (response) {
+        playerResponse = response;
+    });
+
     $http.get("data/matches.txt")
     .then(function (response) {
         angular.forEach(response.data["seasons"], function (season, key) {
@@ -38,4 +45,8 @@ app.controller('seasonController', function ($scope, $route, $http) {
             }
         })
     });
+
+    $scope.GetPlayerName = function (id) {
+        return playerResponse.data["players"][id];
+    }
 });

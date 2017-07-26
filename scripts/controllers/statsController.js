@@ -3,6 +3,13 @@ app.controller('statsController', function ($scope, $http) {
     $scope.reverseSort = true;
     $scope.players = [];
 
+    $scope.playerResponse;
+
+    $http.get("data/players.txt")
+    .then(function (response) {
+        playerResponse = response;
+    });
+
     $http.get("data/matches.txt")
     .then(function (response) {
         angular.forEach(response.data["seasons"], function (season, key) {
@@ -68,4 +75,8 @@ app.controller('statsController', function ($scope, $http) {
     .then(function (response) {
         $scope.seasonAwards = response.data["seasonAwards"];
     });
+
+    $scope.GetPlayerName = function (id) {
+        return playerResponse.data["players"][id];
+    }
 });

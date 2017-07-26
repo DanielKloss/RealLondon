@@ -34,7 +34,7 @@
          data-ng-repeat="player in players|orderBy:orderByField:reverseSort">
         <div class="panel-group">
             <div class="panel panel-primary">
-                <div class="panel-heading">{{player.name}}</div>
+                <div class="panel-heading">{{GetPlayerName(player.name)}}</div>
                 <div class="panel-body">
                     <img ng-src="photos/{{player.name}}.png" onerror="this.src='photos/NoImage.png'" class="img-responsive img-circle pull-left" style="border:10px solid #eee; margin-right:20px;">
                     <div class="media-body">
