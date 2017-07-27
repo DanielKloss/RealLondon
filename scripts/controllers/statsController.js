@@ -24,7 +24,7 @@ app.controller('statsController', ['$scope', '$http', 'playerService', function 
                     if (found) {
                         $scope.players[i].appearances++;
                     } else {
-                        $scope.players.push(new player(team, 1, 0, 0));
+                        $scope.players.push(new player(0, team, 1, 0, 0));
                     }
                 })
 

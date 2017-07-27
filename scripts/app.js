@@ -20,4 +20,8 @@ app.config(function ($routeProvider) {
         templateUrl: "views/stats.html",
         controller: "statsController"
     })
+    .when("/addMatch", {
+        templateUrl: "views/addMatch.html",
+        controller: "addMatchController"
+    })
 });
