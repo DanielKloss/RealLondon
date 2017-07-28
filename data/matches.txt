@@ -755,10 +755,18 @@
                "date":"31 July 2017",
 			   "time":"21:10",
                "form":[
-                  
+                  "W",
+				  "L",
+				  "L",
+				  "W",
+				  "L",
+				  "L",
+				  "L",
+				  "W",
+				  "L"
                ],
-               "leaguePosition":"",
-               "scoutReport":"",
+               "leaguePosition":"8th",
+               "scoutReport":"Parkstars are sitting bottom of the league but don't let that fool you. We lost 2-1 to them last time out and they are certainly not a bad team. We will need to be at our best to put a halt to our slide down the league.",
                "report":"",
                "team":[
 				  
