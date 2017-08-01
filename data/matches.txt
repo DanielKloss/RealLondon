@@ -767,13 +767,13 @@
                ],
                "leaguePosition":"8th",
                "scoutReport":"Parkstars are sitting bottom of the league but don't let that fool you. We lost 2-1 to them last time out and they are certainly not a bad team. We will need to be at our best to put a halt to our slide down the league.",
-               "report":"",
+               "report":"It was a must win game as Real London attempted to halt their slide down the league.\n\nA collective lapse in concentration saw them go in at half time 1-0 down and to make matters worse they lost their truly inspirational leader and captain to injury early in the second half.\n\nHowever, the boys railed admirably and managed to get ahead through goals from Bridger and Hurst. Real London looked as though they could score more and were thoroughly on top.When the opposition scored a controversial penalty equaliser the match threatened to explode - tensions where running high and that led to a stray pass across goal which the opposition pounced on to finish the game.",
                "team":[
-				  
+			0,2,3,7,9,15,13,18	  
                ],
-               "motm":"",
+               "motm":"9",
                "goals":[
-
+9,15
                ],
                "highlights":"",
                "photos":[
