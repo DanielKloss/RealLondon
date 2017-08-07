@@ -796,10 +796,19 @@
                "date":"7 August 2017",
 			   "time":"19:50",
                "form":[
-                  
+                  "W",
+				  "W",
+				  "W",
+				  "L",
+				  "L",
+				  "L",
+				  "L",
+				  "D",
+				  "L",
+				  "L"
                ],
-               "leaguePosition":"",
-               "scoutReport":"",
+               "leaguePosition":"8th",
+               "scoutReport":"They are currently bottom without a win since week 3. It's now or never if we are to stop the rot and keep ourselves off the bottom of the table.",
                "report":"",
                "team":[
 				  
