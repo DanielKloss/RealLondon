@@ -809,13 +809,13 @@
                ],
                "leaguePosition":"8th",
                "scoutReport":"They are currently bottom without a win since week 3. It's now or never if we are to stop the rot and keep ourselves off the bottom of the table.",
-               "report":"",
+               "report":"For the second week running Real London come away from a game scratching their heads wondering how they didn't take any points.\n\nDespite a late dropout and an injured goalkeeper they made a very bright start to the game. Hurst turned in a cross field Pass from Jukes and as the first half wore on the only thing in doubt was just how many the boys in white could score. Jackson had the opposition striker in his pocket, Gizzi and Jukes were storming up the wings, Hedley-Dent was bossing the middle of the park and Bridger was holding the ball up brilliantly. A clever Hurst freekick made it two early in the second half and Real London were cruising.\n\nFootball is a game that can be turned on tiny moments and that was the case today - a tiny lapse in concentration saw the opposition score their first chance of the game and heads dropped. They'd been here before and knew what was coming. The second and third goals followed quickly and the collapse was complete.\n\nEven a goal down Real London were still by far the better team and squandered three glorious late chances to put themselves back in the game. Their slide down the table continues and a title challenge has now turned into a relegation battle.",
                "team":[
-				  
+				  0,9,10,13,15,16,18
                ],
-               "motm":"-1",
+               "motm":"15",
                "goals":[
-
+				  15,15
                ],
                "highlights":"",
                "photos":[
