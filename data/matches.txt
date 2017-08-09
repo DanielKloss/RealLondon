@@ -817,7 +817,7 @@
                "goals":[
 				  15,15
                ],
-               "highlights":"",
+               "highlights":"https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FdreamleaguesUK%2Fvideos%2F1660304394011380%2F&show_text=0&width=560",
                "photos":[
 
                ]
