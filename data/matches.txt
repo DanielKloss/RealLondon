@@ -849,10 +849,19 @@
                "date":"14 August 2017",
 			   "time":"18:30",
                "form":[
-                  
+                  "L",
+				  "L",
+				  "W",
+				  "D",
+				  "W",
+				  "W",
+				  "D",
+				  "W",
+				  "L",
+				  "L"
                ],
-               "leaguePosition":"",
-               "scoutReport":"",
+               "leaguePosition":"5th",
+               "scoutReport":"A wildly inconsistent team possibly suffereing from player availability. They've had some very good results and some very poor results. Who knows what we'll get?",
                "report":"",
                "team":[
 				  
