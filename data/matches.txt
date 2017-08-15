@@ -845,7 +845,7 @@
             },
             {
                "id":13,
-               "title":"Real London - CRB",
+               "title":"Real London 3 - 0 CRB",
                "date":"14 August 2017",
 			   "time":"18:30",
                "form":[
@@ -862,7 +862,7 @@
                ],
                "leaguePosition":"5th",
                "scoutReport":"A wildly inconsistent team possibly suffereing from player availability. They've had some very good results and some very poor results. Who knows what we'll get?",
-               "report":"",
+               "report":"A walkover win against a team that didn't turn up.",
                "team":[
 				  
                ],
