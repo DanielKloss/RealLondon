@@ -885,7 +885,7 @@
                ],
                "leaguePosition":"",
                "scoutReport":"",
-               "report":"",
+               "report":"A walkover win against a team that didn't turn up.",
                "team":[
 				  
                ],
